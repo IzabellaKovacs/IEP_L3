@@ -27,17 +27,13 @@ class Lock{
     }
 };
 
-void readTurn(){
+void readSmh(){
     Lock l;
     ct++;  
     cout<<ct<< ": "; 
     cin>>s;
 }
 
-void printTurn()
-{
-    Lock l;
-    cout<<s<<endl;
-}
+
 
       

@@ -6,20 +6,13 @@
 using namespace std;
 
 void start_mutex(){
-    thread t1(readTurn);
-    thread t11(printTurn);
-    thread t2(readTurn);
-    thread t22(printTurn);
-    thread t3(readTurn);
-    thread t33(printTurn);
+    thread t1(readSmh);
+    thread t2(readSmh);
+    thread t3(readSmh);
   
     t1.join();
-    t11.join();
     t2.join();
-    t22.join();
     t3.join();
-    t33.join();
-
 }
 
 void declareMom(){
